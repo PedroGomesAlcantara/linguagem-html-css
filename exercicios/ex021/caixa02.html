@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: aliceblue;
+            text-align: justify;
+        }
+        header{
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: lightcoral;
+            padding: 15px;
+            margin: 15px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        article {
+            background-color: aqua;
+        }
+        article > aside {
+            background-color: yellow;
+        }
+        nav{
+            background-color: lightgreen;
+            padding: 40px;
+            margin: auto;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+        }
+        nav > a:hover {
+            background-color: red;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <!--TAGS ANTIGAS PARA CIRAR SITE-->
+    <div></div>
+    <span></span>
+
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Politica, Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, veritatis, tempore minus quos repellat molestias ullam consequuntur debitis, praesentium possimus cupiditate eum velit? Tempora beatae provident repudiandae. Unde, consequatur voluptatum.</p>
+                <aside>
+                    <p>Artigo escrito por José</p>
+                </aside>
+        </section>
+       
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+    </footer>
+</body>
+</html>
