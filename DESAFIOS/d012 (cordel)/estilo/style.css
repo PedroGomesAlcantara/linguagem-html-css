@@ -84,7 +84,7 @@ section {
 #img01 {
   
 
-    background: black url(pacote-d012/imagens/flor.jpg) right center no-repeat fixed;
+    background: black url(../pacote-d012/imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
 }
 
@@ -107,7 +107,7 @@ section {
 #img02{
  
 
-    background: black url(pacote-d012/imagens/papel.jpg) right center no-repeat fixed;
+    background: black url(../pacote-d012/imagens/background002.jpg) right center no-repeat fixed;
     background-size: cover;
 }
 
