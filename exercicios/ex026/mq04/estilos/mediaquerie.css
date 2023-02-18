@@ -41,7 +41,7 @@ Grandes Telas: acima de 1200px;
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
 
     body {
         background-image: url(../imagens/back-pc.jpg);
